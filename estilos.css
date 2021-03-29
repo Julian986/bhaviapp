@@ -1,0 +1,128 @@
+
+
+
+/* @media screen and (max-width:313px){ */
+
+        body{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                background-color: black;
+                 
+                
+               
+                
+        }
+
+        #particles-js{
+                        height: 100vh; 
+                       
+                        width: 100%;
+                         position: fixed; 
+                       
+                        z-index: 20;
+        }
+
+        .reglas{
+                    font-size: 40px;
+                    color: white;
+        }
+
+        ul{
+                margin-top: 20px;
+        }
+
+        ul li{
+                    font-size: 20px;
+                        color: white;    
+        }
+      
+
+            .contenedor{
+               /*  width: 310px; 
+                height: 480px;*/
+                
+                width: 98mm;
+                height: 164mm;
+
+                 /*background-image: url('https://i.pinimg.com/236x/de/17/36/de173624eab82e128355ba88005adf03.jpg?b=t'); 
+                background-image: url('https://storage.lacapitalmdp.com/2019/12/bhavi-1024x954.jpg');*/
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center 0;
+                position: relative;
+                z-index: 9;
+            }
+
+        img{
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                /* margin-top: 85%; */
+                opacity: 0.9;
+                border: 2px solid rgb(24, 23, 23);
+                 z-index: 5; 
+                 position: absolute;
+                top:190px;
+                right: 30%;
+
+                z-index: 10;
+                
+        }
+
+        img:hover{
+            opacity: 1.0;
+}
+
+        
+        @keyframes circuloAnimacion {
+
+                0%{
+                    transform:  translate();  padding: 70px 70px; position: absolute; top:183px; right: 19.7%; 
+                }
+                100%{
+                        transform:  translate(); padding: 220px 220px; position: absolute; top:20px; right: -30%; 
+                    
+            }   
+            
+            
+          
+            
+        }
+        
+                    /*rigth -20%*/
+        
+        .circulo{
+                       padding: 70px 70px;
+                      /*  background-color: black; */
+                       border-radius: 50%;
+                       border: 2px solid lightskyblue;
+                       display: inline-block;
+                           position: absolute;
+                           top:183px;
+                           right: 19.7%;
+                        
+                     
+                                /* animation: circuloAnimacion 0.7s ease infinite ;    */ 
+                          z-index: 4; 
+        }
+
+        
+    
+
+        .circulo2{
+            padding: 220px 220px;
+           /*  background-color: black; */
+            border-radius: 50%;
+            border: 2px solid lightskyblue;
+            display: inline-block;
+               position: absolute;
+             
+               top:20px;
+               right: -30%;
+          
+                 /* animation: circuloAnimacion 1s ease infinite ;  */ 
+              /* z-index: 4; */
+}
+
+    /* } */
